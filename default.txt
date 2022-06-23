@@ -1,0 +1,5 @@
+CREATE TABLE Colleges (
+  college_id INT PRIMARY KEY,
+  college_code VARCHAR(20),
+  college_country VARCHAR(20) DEFAULT 'US'
+);
