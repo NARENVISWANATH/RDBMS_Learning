@@ -1,0 +1,14 @@
+-- creating a table with different date fields
+CREATE TABLE Users (
+  id INT,
+  username VARCHAR(50),
+  full_name VARCHAR(50),
+  date_of_birth DATE,
+  last_login DATETIME,
+  registered_at TIMESTAMP
+);
+
+-- inserting values into the Users table.
+INSERT INTO Users
+VALUES
+(1, 'Naren', 'Naren Viswanath', '1999-03-16', '2022-04-22 10:34:53.44', '2020-03-15 07:31:42.23');
